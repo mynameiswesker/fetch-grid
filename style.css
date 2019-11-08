@@ -1,0 +1,37 @@
+#ULS{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 0px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.LIS{
+    display: flex;
+    margin: 10px;
+    width: 22%;
+    justify-content: center;
+}
+
+.IMGS{
+    max-width: 100%;
+}
+
+@media screen and (max-width:1199px) and (min-width: 992px) {
+    .LIS{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:991px) and (min-width: 768px) {
+    .LIS{
+        width: 33%;
+    }
+}
+
+@media screen and (max-width:767px) and (min-width: 0px) {
+    .LIS{
+        width: 100%;
+    }
+}
